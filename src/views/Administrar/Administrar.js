@@ -133,7 +133,7 @@ export default function UserProfile() {
                 <GridItem xs={12} sm={12} md={12}>
                   <InputLabel style={{ color: "#AAAAAA" }}>About me</InputLabel>
                   <CustomInput
-                    labelText="Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo."
+                    labelText="Et credo, credere non possum scribere me narratio nostra. Credo: Credo possumus esse ab exercitu"
                     id="about-me"
                     formControlProps={{
                       fullWidth: true,
@@ -160,11 +160,13 @@ export default function UserProfile() {
             </CardAvatar>
             <CardBody profile>
               <h6 className={classes.cardCategory}>CEO / CO-FOUNDER</h6>
-              <h4 className={classes.cardTitle}>Alec Thompson</h4>
+              <h4 className={classes.cardTitle}>Arroz con huevo</h4>
               <p className={classes.description}>
-                Don{"'"}t be scared of the truth because we need to restart the
-                human foundation in truth And I love you like Kanye loves Kanye
-                I love Rick Owens’ bed design but the back is...
+                
+              Et bellatorem, qui nos diligere didicit dolor. 
+              Nos ex diversis locis veni, sed est eiusdem nominis. 
+              Fracti sunt nobis ad ones, qui elegit Præterea Synodus etiam a flamma. 
+              Pervigilant quasi igne furit. Non tame corda nostra
               </p>
               <Button color="primary" round>
                 Follow

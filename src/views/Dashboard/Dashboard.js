@@ -10,7 +10,7 @@ import Store from "@material-ui/icons/Store";
 // import DateRange from "@material-ui/icons/DateRange";
 // import LocalOffer from "@material-ui/icons/LocalOffer";
 // import Update from "@material-ui/icons/Update";
-import ArrowUpward from "@material-ui/icons/ArrowUpward";
+//import ArrowUpward from "@material-ui/icons/ArrowUpward";
 import WarningIcon from "@material-ui/icons/Warning";
 import AccessTime from "@material-ui/icons/AccessTime";
 // import Accessibility from "@material-ui/icons/Accessibility";
@@ -117,19 +117,9 @@ export default function Dashboard()
               />
             </CardHeader>
             <CardBody>
-              <h4 className={classes.cardTitle}>Daily Sales</h4>
-              <p className={classes.cardCategory}>
-                <span className={classes.successText}>
-                  <ArrowUpward className={classes.upArrowCardCategory} /> 55%
-                </span>{" "}
-                increase in today sales.
-              </p>
+              <h4 className={classes.cardTitle}>Ganancias mensuales (?)</h4>
+              <p  className={classes.cardCategory}>Cifras en Dólares Americanos (por la devaluación del PEN) </p>
             </CardBody>
-            <CardFooter chart>
-              <div className={classes.stats}>
-                <AccessTime /> updated 4 minutes ago
-              </div>
-            </CardFooter>
           </Card>
         </GridItem>
         <GridItem xs={12} sm={12} md={4}>
@@ -144,12 +134,13 @@ export default function Dashboard()
               />
             </CardHeader>
             <CardBody>
-              <h4 className={classes.cardTitle}>Completed Tasks</h4>
-              <p className={classes.cardCategory}>Last Campaign Performance</p>
+              <h4 className={classes.cardTitle}>Máquinas ocupando el mayor ancho de banda</h4>
+              <small align = "right"> {">"} 25 Mbps</small>
+              <p className={classes.cardCategory}>Incidencias de hoy día</p>
             </CardBody>
             <CardFooter chart>
               <div className={classes.stats}>
-                <AccessTime /> campaign sent 2 days ago
+                <AccessTime /> Actualizado hace 5 minutos
               </div>
             </CardFooter>
           </Card>
@@ -167,12 +158,12 @@ export default function Dashboard()
               />
             </CardHeader>
             <CardBody>
-              <h4 className={classes.cardTitle}>Email Subscriptions</h4>
-              <p className={classes.cardCategory}>Last Campaign Performance</p>
+              <h4 className={classes.cardTitle}>Alertas graves generales</h4>
+              <p className={classes.cardCategory}>Notificaciones de brechas de premisos o seguridad</p>
             </CardBody>
             <CardFooter chart>
               <div className={classes.stats}>
-                <AccessTime /> campaign sent 2 days ago
+                <AccessTime /> Actualizado: {Date(Date.now())}
               </div>
             </CardFooter>
           </Card>
