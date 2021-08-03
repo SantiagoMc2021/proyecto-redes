@@ -1,0 +1,6 @@
+#landing-wrapper {
+    position: fixed;
+    z-index: -1;
+    width: 50%;
+    src: 'url(${assets/img/g_house.jpg})'
+}
