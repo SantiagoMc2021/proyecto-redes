@@ -17,7 +17,6 @@ import RTLNavbarLinks from "components/Navbars/RTLNavbarLinks.js";
 
 import styles from "assets/jss/material-dashboard-react/components/sidebarStyle.js";
 
-
 const useStyles = makeStyles(styles);
 
 export default function Sidebar(props) {
