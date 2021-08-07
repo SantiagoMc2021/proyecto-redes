@@ -22,7 +22,6 @@ import CardIcon from "components/Card/CardIcon.js";
 import CardBody from "components/Card/CardBody.js";
 import CardFooter from "components/Card/CardFooter.js";
 
-import imgr from "../Home/ola.png"
 
 import { bugs, website, server } from "variables/general.js";
 
@@ -40,7 +39,7 @@ export default function Dashboard()
 {
   const classes = useStyles();
   return (
-    <div style={{backgroundImage: "url(" + imgr + ")"}}>
+    <div>
       <GridContainer>
         <GridItem xs={12} sm={6} md={3}>
           <Card>
@@ -57,39 +56,39 @@ export default function Dashboard()
         </GridItem>
         <GridItem xs={12} sm={6} md={3}>
           <Card>
-            <CardHeader color="info">
+            <CardHeader color="warning">
               <CardIcon color="info">
                 <Store />
               </CardIcon>
-              <h>Ancho de Banda Usado</h>
+              <h>Máquinas usadas</h>
               <big>
-                <br></br>39.3% <br></br>393 /1000 <small>Gb/s</small>
+                <br></br>77% <br></br> 30 de 39 <small>Máquinas</small>
               </big>
             </CardHeader>
           </Card>
         </GridItem>
         <GridItem xs={12} sm={6} md={3}>
           <Card>
-            <CardHeader color="info">
+            <CardHeader color="primary">
               <CardIcon color="info">
                 <Store />
               </CardIcon>
-              <h>Ancho de Banda Usado</h>
+              <h>Uso de CPU principal</h>
               <big>
-                <br></br>39.3% <br></br>393 /1000 <small>Gb/s</small>
+                <br></br>9.1% <br></br> freq: 3.9 <small>GHz</small>
               </big>
             </CardHeader>
           </Card>
         </GridItem>
         <GridItem xs={12} sm={6} md={3}>
           <Card>
-            <CardHeader color="info">
-              <CardIcon color="info">
+            <CardHeader color="danger">
+              <CardIcon color="warning">
                 <Store />
               </CardIcon>
-              <h>Ancho de Banda Usado</h>
+              <h>Potencia Eléctrica</h>
               <big>
-                <br></br>39.3% <br></br>393 /1000 <small>Gb/s</small>
+                <br></br>79% <br></br> 79 de 100 <small>KW</small>
               </big>
             </CardHeader>
           </Card>
