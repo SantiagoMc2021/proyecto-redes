@@ -14,7 +14,7 @@ import routes from "routes.js";
 
 import styles from "assets/jss/material-dashboard-react/layouts/adminStyle.js";
 
-import bgImage from "assets/img/sidebar-2.jpg"; //imagen del fondo del lado lateral
+import bgImage from "../views/Home/ola.png"; //imagen del fondo del lado lateral
 import logo from "assets/img/reactlogo.png";
 
 let ps;
